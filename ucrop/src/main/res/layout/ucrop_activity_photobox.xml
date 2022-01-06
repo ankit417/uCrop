@@ -5,24 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+
+    <FrameLayout
+        android:id="@+id/controls_wrapper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/ucrop_color_toolbar"
-        android:minHeight="?attr/actionBarSize">
-
-        <TextView
-            android:id="@+id/toolbar_title"
-            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:text="@string/ucrop_label_edit_photo"
-            android:textColor="@color/ucrop_color_toolbar_widget" />
-
-    </androidx.appcompat.widget.Toolbar>
-
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
     <FrameLayout
         android:id="@+id/ucrop_frame"
         android:layout_width="match_parent"
@@ -47,12 +36,24 @@
             android:alpha="0" />
 
     </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/controls_wrapper"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:visibility="gone" />
+
+        android:background="@color/ucrop_color_toolbar"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/ucrop_label_edit_photo"
+            android:textColor="@color/ucrop_color_toolbar_widget" />
+
+    </androidx.appcompat.widget.Toolbar>
+
 
 </RelativeLayout>
