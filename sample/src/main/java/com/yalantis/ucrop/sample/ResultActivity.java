@@ -1,4 +1,4 @@
-package com.yalantis.ucrop.sample;
+package com.github.ankit417.ucrop.sample;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -20,7 +20,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.yalantis.ucrop.view.UCropView;
+import com.github.ankit417.ucrop.view.UCropView;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.yalantis.ucrop.sample;
+package com.github.ankit417.ucrop.sample;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -25,10 +25,10 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.yalantis.ucrop.UCrop;
-import com.yalantis.ucrop.UCropActivity;
-import com.yalantis.ucrop.UCropFragment;
-import com.yalantis.ucrop.UCropFragmentCallback;
+import com.github.ankit417.ucrop.UCrop;
+import com.github.ankit417.ucrop.UCropActivity;
+import com.github.ankit417.ucrop.UCropFragment;
+import com.github.ankit417.ucrop.UCropFragmentCallback;
 
 import java.io.File;
 import java.util.Locale;
@@ -289,7 +289,7 @@ public class SampleActivity extends BaseActivity implements UCropFragmentCallbac
     }
 
     /**
-     * Sometimes you want to adjust more options, it's done via {@link com.yalantis.ucrop.UCrop.Options} class.
+     * Sometimes you want to adjust more options, it's done via {@link com.github.ankit417.ucrop.UCrop.Options} class.
      *
      * @param uCrop - ucrop builder instance
      * @return - ucrop builder instance

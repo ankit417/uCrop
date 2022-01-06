@@ -29,7 +29,7 @@
             tools:background="@drawable/ucrop_vector_ic_crop"
             tools:ignore="ContentDescription,MissingPrefix" />
 
-        <com.yalantis.ucrop.view.UCropView
+        <com.github.ankit417.ucrop.view.UCropView
             android:id="@+id/ucrop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

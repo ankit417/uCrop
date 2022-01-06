@@ -15,7 +15,7 @@
         app:title="@string/format_crop_result_d_d"
         app:titleTextColor="@android:color/white"/>
 
-    <com.yalantis.ucrop.view.UCropView
+    <com.github.ankit417.ucrop.view.UCropView
         android:id="@+id/ucrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

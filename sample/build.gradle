@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.yalantis.ucrop.sample"
+        applicationId "com.github.ankit417.ucrop.sample"
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 13
